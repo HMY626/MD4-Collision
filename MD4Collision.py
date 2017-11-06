@@ -158,9 +158,6 @@ def Collision():
   while 1:
     #随机的M
     m = [chr(i) for i in [random.randint(0, 2 ** 8 - 1) for i in range(64)]]
-    #m = list('0000000000Tr0y has $10000000000000 in the BOC.')
-    #m = m+mtail+list('Tr0y has $100000000000000000000000 in the BOC. -------- 20171101')
-    #print ''.join(m)
     ma, mb = FindCollision(m)
     if ma:
       #winsound.Beep(600, 1000)
