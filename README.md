@@ -1,4 +1,4 @@
-MD4 Collisions
+#MD4 Collisions
 MD4 is a 128-bit cryptographic hash function, meaning it should take a work factor of roughly 2^64 to find collisions.
 
 It turns out we can do much better.
